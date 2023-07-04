@@ -1,0 +1,319 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: auto;
+    width: auto;
+    background-color: blueviolet;
+}
+.clock{
+    height:90px;
+    width:160px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 20px;
+    left:60px;
+}
+.blank{
+    background-color: white;
+    height:120px;
+   width:440px;
+   position: relative;
+   z-index: -10;
+   top: -130px;
+   left: 629px;
+   opacity:80%;
+   border-radius: 10px;
+}
+.blank2{
+    position: relative;
+    top:-230px;
+    width:380px;
+    left: 658px;
+    z-index: -20;
+    opacity:30%;
+}
+div img{
+    height:90px;
+    width:180px;
+}
+.box{
+    height: 95px;
+    width:80px;
+    margin-top: 5px;
+    background-color: #F6E2FF;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 20px;
+    color: blueviolet;
+}
+.box4{
+    background: linear-gradient(to bottom,blueviolet,violet);
+    font-size: 37px;
+    color:white;
+    
+}
+ 
+.runclock{
+   height:120px;
+   width:500px;
+   position: relative;
+   left:600px;
+   display: flex;
+   top:-30px;
+   padding: 8px;
+   justify-content: space-around;
+   background-color: white;
+   border-radius: 10px;
+   
+}
+#text{
+  margin-top: 45px;
+  color:blueviolet;
+}
+.dot{
+    font-size: 36px;
+    margin-top: 25px;
+}
+.inputboxes{
+    background-color: white;
+    height: 330px;
+    width: 440px;
+    position: relative;
+    left: 60px;
+    top:-380px;
+    border-radius: 10px;
+
+}
+.changemsg1{
+    color:#8E53F0;
+    text-align: center;
+    height: 75px;
+    width:497px;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    left: 600px;
+    top: -210px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 21px;
+    font-weight: bold;
+}
+.bigimg{
+  height:370px;
+  width:498px;
+  position: relative;
+  left:600px;
+  top:-520px;
+  border-radius:10px;
+  z-index: 10;
+  background-color: white;
+}
+
+.images{
+    height: 34px;
+    width:34px;
+}
+.div1{
+    height: 42px;
+    width:390px; 
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top:20px;
+    left:20px;
+}
+div p{
+    margin-top: 8px;
+}
+.selctions{
+    height:28px;
+    width:190px;
+    margin-top: 4px;
+    
+}
+.slash{
+    font-weight: bold;
+    font-size: 28px ;
+    position: relative;
+    top: 10px;
+    left: 36px;
+    color: lightgray;
+}
+.goodmrng{
+ position: relative;
+ top: -720px;
+ left:60px;
+ height: 70px;
+ border-radius: 10px;
+ color: white;
+ width:440px;
+text-align: center;
+padding-top: 5px;
+font: normal normal 900 27px/34px Bauhaus Hv BT;
+}
+.godmrng span{
+    font-family: 'Nunito Sans', sans-serif;
+    isolation: isolate;
+    font-weight: bolder;     
+}
+.goodmrng::before{
+    opacity:30%; 
+    background-color:lightgray;
+    content: '';
+    position: absolute;
+    inset: 0; 
+    border-radius: 10px;
+}
+.goodmrng h3{ 
+    color: white;
+} 
+.alarm{
+    border-radius: 10px;
+    position: absolute;
+    top:610px;
+    left:60px;
+    font-size: 20px;
+    height :50px;
+    width:190px;
+    background-image: linear-gradient( to right,violet 30%, pink 70%);
+}
+.alarm:hover{
+    background-image: linear-gradient( to right,pink 30%, violet 70%);
+}
+.alarm::before{
+content:"Set Alarm"
+}
+
+.alarm:hover::before{
+    display:none;
+}
+
+.alarm:hover::after{
+    content:"Party Time" ;
+}
+
+.updatelist{
+    position: absolute;
+    top: 590px;
+    left:280px;
+    height: 155px;
+    border-radius: 10px;
+    width:230px;
+    line-height: 24px;
+   text-align: center;
+   padding: 5px;
+   font-weight: bold;
+    font: normal normal 900  Bauhaus Hv BT;
+   }
+   .updatelist span{
+       font-family: 'Nunito Sans', sans-serif;
+       isolation: isolate;
+       font-weight: bolder;     
+   }
+   .updatelist::before{
+       opacity:30%; 
+       background-color:lightgray;
+       content: '';
+       position: absolute;
+       inset: 0; 
+       border-radius: 10px;
+   }
+   .updatelist h3{ 
+       color: yellow;
+   } 
+   @media screen and (min-width:280px) and (max-width:900px) {
+
+  
+   *{
+    font: auto;
+    overflow-y: visible;
+   
+   }
+   body{
+    width: 70%;
+   
+   }
+   .selctions{
+    width:auto;
+   }
+   .div1{
+    width:auto;
+    justify-content: space-evenly;
+   }
+    .runclock{
+      
+        left:0px;
+        top:40px;
+        width: 100vw;
+        height: auto;
+       }
+       .box{
+        width:390px;
+        height:auto;
+        font-size: auto;
+       
+       }
+       .blank1{
+        left:15px;
+        top: -63px; 
+        width:350px;
+       }
+       .blank2{
+         left:45px; 
+        top:-170px;
+        width:310px;
+       }
+       .changemsg1{
+        left: 0px;
+        top: -150px;
+        width:380px;
+        /* height:auto; */
+    
+       }
+       .inputboxes{
+        top:260px;
+        left: 0px;
+        width:380px;
+        top:170px;
+       }
+       .bigimg{
+        left:0px;
+        top:-460px;
+        height: auto;
+        font: auto;
+        width:380px;
+       }
+       .goodmrng{
+        top: -60px;
+        left:0px; 
+        width: 380px;
+       
+       }
+    .alarm{
+        top:  1140px;   
+        left:0px;
+        width:130px;
+      
+    }
+    .updatelist{
+        top:  1130px;   
+        left:180px;
+        font-size:10px;
+        width:170px;
+        
+    }
+    .slash{
+        left:70px;
+    }
+
+
+ 
+    
+}
+ 
