@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 body{
-    height: auto;
+    
     width: auto;
     background-color: blueviolet;
+  
 }
 .clock{
     height:90px;
@@ -23,14 +24,14 @@ body{
    width:440px;
    position: relative;
    z-index: -10;
-   top: -130px;
+   top: -135px;
    left: 629px;
    opacity:80%;
    border-radius: 10px;
 }
 .blank2{
     position: relative;
-    top:-230px;
+    top:-243px;
     width:380px;
     left: 658px;
     z-index: -20;
@@ -64,7 +65,7 @@ div img{
    position: relative;
    left:600px;
    display: flex;
-   top:-30px;
+   top:-40px;
    padding: 8px;
    justify-content: space-around;
    background-color: white;
@@ -227,91 +228,110 @@ content:"Set Alarm"
    .updatelist h3{ 
        color: yellow;
    } 
-   @media screen and (min-width:280px) and (max-width:900px) {
+   .blanket{
+    border: 1px solid black;
+   }
+   @media screen and (min-width:280px) and (max-width:500px) {
 
   
    *{
     font: auto;
-    overflow-y: visible;
-   
-   }
-   body{
-    width: 70%;
+    /* overflow-x: hidden; */
    
    }
    .selctions{
     width:auto;
    }
    .div1{
-    width:auto;
+    width:280px;
     justify-content: space-evenly;
    }
     .runclock{
       
         left:30px;
-        top:40px;
-        width: 100vw;
-        height: auto;
+        top:12px;
+        width: 300px;
+        height: 90px;
+        font: auto;
        }
        .box{
         width:390px;
         height:auto;
-        font-size: auto;
+        font-size: 17px;
        
        }
+       #text{
+        margin-top:23px;
+       }
        .blank1{
-        left:15px;
-        top: -63px; 
-        width:350px;
+        left:50px;
+        top: -73px; 
+        width:260px;
+        height: 100px;
+
        }
        .blank2{
-         left:45px; 
-        top:-170px;
-        width:310px;
+         left:72px; 
+        top:-164px;
+        width:220px;
+        height: 100px;
        }
        .changemsg1{
         left: 30px;
-        top: -150px;
-        width:380px;
+        top: -155px;
+        width:300px;
         /* height:auto; */
     
        }
+       .clock{
+        /* height:30px; */
+        top:3px;
+       }
        .inputboxes{
-        top:260px;
+        top:10px;
         left: 30px;
-        width:380px;
-        top:170px;
+        width:300px;
+        top:-140px;
+        height:290px;
        }
        .bigimg{
         left:30px;
-        top:-460px;
+        top:-130px;
         height: auto;
         font: auto;
-        width:380px;
+        width:300px;
        }
        .goodmrng{
-        top: -60px;
+        top: -125px;
         left:30px; 
-        width: 380px;
+        width: 300px;
+        font-size: 20px;
        
        }
     .alarm{
-        top:  1140px;   
-        left:30px;
-        width:130px;
+        top:  -110px;   
+        left:20px;
+        width:110px;
+        position: relative;
       
     }
     .updatelist{
-        top:  1130px;   
-        left:180px;
+        position: relative;
+        top:  -170px;   
+        left:148px;
         font-size:10px;
-        width:170px;
+        width:180px;
+        margin-bottom: 20px;
+        line-height: 15px;
         
     }
     .slash{
-        left:70px;
+        left:45px;
     }
-
+.blanket{
+    position: relative;
+    top:180px;
+}
 
  
     
