@@ -248,7 +248,7 @@ content:"Set Alarm"
    }
     .runclock{
       
-        left:0px;
+        left:30px;
         top:40px;
         width: 100vw;
         height: auto;
@@ -270,7 +270,7 @@ content:"Set Alarm"
         width:310px;
        }
        .changemsg1{
-        left: 0px;
+        left: 30px;
         top: -150px;
         width:380px;
         /* height:auto; */
@@ -278,12 +278,12 @@ content:"Set Alarm"
        }
        .inputboxes{
         top:260px;
-        left: 0px;
+        left: 30px;
         width:380px;
         top:170px;
        }
        .bigimg{
-        left:0px;
+        left:30px;
         top:-460px;
         height: auto;
         font: auto;
@@ -291,13 +291,13 @@ content:"Set Alarm"
        }
        .goodmrng{
         top: -60px;
-        left:0px; 
+        left:30px; 
         width: 380px;
        
        }
     .alarm{
         top:  1140px;   
-        left:0px;
+        left:30px;
         width:130px;
       
     }
