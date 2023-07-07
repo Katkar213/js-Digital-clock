@@ -58,12 +58,12 @@ function setalarm(){
 
  else if(parseInt(inputValue[1].value)===hrss){
 goodmrng[0].innerText="GOOD AFTERNOON !! TAKE SOME SLEEP";
-bigimg[0].src="./lunch_image.png"
+bigimg[0].src="./Group 5183.png"
 
  }
  else if(parseInt(inputValue[2].value)===hrss){
     goodmrng[0].innerText="GOOD EVENING !!";
-    bigimg[0].src="./Group 5183.png"
+    bigimg[0].src="./lunch_image.png"
   
  }
 else if(parseInt(inputValue[3].value)===hrss){
