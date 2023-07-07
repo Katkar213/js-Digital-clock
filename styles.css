@@ -300,14 +300,15 @@ content:"Set Alarm"
         width:300px;
        }
        .goodmrng{
-        top: -125px;
+        top: 680px;
         left:30px; 
         width: 300px;
         font-size: 20px;
+        height:69px;
        
        }
     .alarm{
-        top:  160px;   
+        top:  230px;   
         left:20px;
         width:110px;
         position: relative;
@@ -315,7 +316,7 @@ content:"Set Alarm"
     }
     .updatelist{
         position: relative;
-        top:  110px;   
+        top:  190px;   
         left:148px;
         font-size:10px;
         width:180px;
@@ -373,6 +374,11 @@ content:"Set Alarm"
         }
         #text{
          margin-top:23px;
+        }
+        .imgclass{
+            height:10px;
+            top:200px;
+            position: absolute;
         }
         .blank1{
          left:120px;
