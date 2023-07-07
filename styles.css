@@ -10,12 +10,11 @@ body{
   
 }
 .clock{
-    height:90px;
+    height:60px;
     width:160px;
     background-size: cover;
     background-position: center;
     position: relative;
-    top: 20px;
     left:60px;
 }
 .blank{
@@ -24,14 +23,14 @@ body{
    width:440px;
    position: relative;
    z-index: -10;
-   top: -135px;
+   top: -140px;
    left: 629px;
    opacity:80%;
    border-radius: 10px;
 }
 .blank2{
     position: relative;
-    top:-243px;
+    top:-247px;
     width:380px;
     left: 658px;
     z-index: -20;
@@ -42,14 +41,14 @@ div img{
     width:180px;
 }
 .box{
-    height: 95px;
+    height:auto;
     width:80px;
     margin-top: 5px;
     background-color: #F6E2FF;
     border-radius: 5px;
     text-align: center;
     font-size: 32px;
-    padding-top: 20px;
+    padding-top: 10px;
     color: blueviolet;
 }
 .box4{
@@ -60,7 +59,7 @@ div img{
 }
  
 .runclock{
-   height:120px;
+   height:100px;
    width:500px;
    position: relative;
    left:600px;
@@ -82,11 +81,11 @@ div img{
 }
 .inputboxes{
     background-color: white;
-    height: 330px;
+    height: 270px;
     width: 440px;
-    position: relative;
+    position: absolute;
     left: 60px;
-    top:-380px;
+    top:100px;
     border-radius: 10px;
 
 }
@@ -97,20 +96,20 @@ div img{
     width:497px;
     border-radius: 10px;
     background-color: white;
-    position: relative;
+    position: absolute;
     left: 600px;
-    top: -210px;
+    top: 165px;
     text-align: center;
     padding-top: 20px;
     font-size: 21px;
     font-weight: bold;
 }
 .bigimg{
-  height:370px;
-  width:498px;
+  height:300px;
+  width:492px;
   position: relative;
   left:600px;
-  top:-520px;
+  top:-144px;
   border-radius:10px;
   z-index: 10;
   background-color: white;
@@ -121,7 +120,7 @@ div img{
     width:34px;
 }
 .div1{
-    height: 42px;
+    height:auto;
     width:390px; 
     display: flex;
     justify-content: space-between;
@@ -147,10 +146,10 @@ div p{
     color: lightgray;
 }
 .goodmrng{
- position: relative;
- top: -720px;
+ position: absolute;
+ top: 380px;
  left:60px;
- height: 70px;
+ height: 60px;
  border-radius: 10px;
  color: white;
  width:440px;
@@ -177,7 +176,7 @@ font: normal normal 900 27px/34px Bauhaus Hv BT;
 .alarm{
     border-radius: 10px;
     position: absolute;
-    top:610px;
+    top:460px;
     left:60px;
     font-size: 20px;
     height :50px;
@@ -201,12 +200,12 @@ content:"Set Alarm"
 
 .updatelist{
     position: absolute;
-    top: 590px;
+    top: 450px;
     left:280px;
-    height: 155px;
+    height: 145px;
     border-radius: 10px;
     width:230px;
-    line-height: 24px;
+    line-height: 17px;
    text-align: center;
    padding: 5px;
    font-weight: bold;
@@ -235,9 +234,11 @@ content:"Set Alarm"
 
   
    *{
-    font: auto;
-    /* overflow-x: hidden; */
-   
+    font: auto; 
+    position: relative;  
+   }
+   body{
+    height:auto;
    }
    .selctions{
     width:auto;
@@ -249,7 +250,7 @@ content:"Set Alarm"
     .runclock{
       
         left:30px;
-        top:12px;
+        top:40px;
         width: 300px;
         height: 90px;
         font: auto;
@@ -265,14 +266,14 @@ content:"Set Alarm"
        }
        .blank1{
         left:50px;
-        top: -73px; 
+        top: -30px; 
         width:260px;
-        height: 100px;
+        height: 80px;
 
        }
        .blank2{
          left:72px; 
-        top:-164px;
+        top:-124px;
         width:220px;
         height: 100px;
        }
@@ -283,20 +284,17 @@ content:"Set Alarm"
         /* height:auto; */
     
        }
-       .clock{
-        /* height:30px; */
-        top:3px;
-       }
+    
        .inputboxes{
-        top:10px;
+       
         left: 30px;
         width:300px;
-        top:-140px;
-        height:290px;
+        top:215px;
+        height:255px;
        }
        .bigimg{
         left:30px;
-        top:-130px;
+        top:150px;
         height: auto;
         font: auto;
         width:300px;
@@ -309,7 +307,7 @@ content:"Set Alarm"
        
        }
     .alarm{
-        top:  -110px;   
+        top:  160px;   
         left:20px;
         width:110px;
         position: relative;
@@ -317,10 +315,11 @@ content:"Set Alarm"
     }
     .updatelist{
         position: relative;
-        top:  -170px;   
+        top:  110px;   
         left:148px;
         font-size:10px;
         width:180px;
+        height: auto;
         margin-bottom: 20px;
         line-height: 15px;
         
@@ -328,9 +327,13 @@ content:"Set Alarm"
     .slash{
         left:45px;
     }
+    imgshrt{
+        height: 10px;
+    
+    }
 .blanket{
     position: relative;
-    top:180px;
+    top:460px;
 }
 
  
