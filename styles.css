@@ -320,11 +320,11 @@ content:"Set Alarm"
         font-size:10px;
         width:180px;
         height: auto;
-        margin-bottom: 20px;
+        margin-bottom: 80px;
         line-height: 15px;
         
     }
-    
+
     .slash{
         left:45px;
     }
@@ -334,10 +334,125 @@ content:"Set Alarm"
     }
 .blanket{
     position: relative;
-    top:460px;
+    top:400px;
 }
 
  
     
 }
  
+@media screen and (min-width:500px) and (max-width:900px) {
+
+  
+    *{
+     font: auto; 
+     position: relative;  
+    }
+    body{
+     height:auto;
+    }
+    .selctions{
+     width:auto;
+    }
+    .div1{
+     width:auto;
+     justify-content: space-evenly;
+    }
+     .runclock{
+       
+         left:30px;
+         top:40px;
+         width: 90%;
+         height: 90px;
+         font: auto;
+        }
+        .box{
+         width:390px;
+         height:auto;
+         font-size: 17px;
+        
+        }
+        #text{
+         margin-top:23px;
+        }
+        .blank1{
+         left:80px;
+         top: -30px; 
+         width:80%;
+         height: 80px;
+ 
+        }
+        .blank2{
+          left:150px; 
+         top:-124px;
+         width:60%;
+         height: 100px;
+        }
+        .changemsg1{
+         left: 30px;
+         top: -155px;
+         width:300px;
+         /* height:auto; */
+     
+        }
+     
+        .inputboxes{
+        
+         left: 30px;
+         width:90%;
+         top:215px;
+         height:255px;
+        }
+        .bigimg{
+         left:30px;
+         top:150px;
+         height: auto;
+         font: auto;
+         width:90%;
+        }
+        .goodmrng{
+         top: -125px;
+         left:30px; 
+         width: 300px;
+         font-size: 20px;
+        
+        }
+     .alarm{
+         top:  160px;   
+         left:20px;
+         width:30%;
+         position: relative;
+       
+     }
+     .updatelist{
+         position: relative;
+         top:  110px;   
+         left:38%;
+         font-size:10px;
+         width:50%;
+         height: 140px;
+         margin-bottom: 80px;
+         line-height: 25px;
+         
+     }
+     .clock{
+        left:40%;
+     }
+ 
+     .slash{
+         left:145px;
+         width: 40px;
+         top:20px;
+     }
+     imgshrt{
+         height: 10px;
+     
+     }
+ .blanket{
+     position: relative;
+     top:720px;
+ }
+ 
+  
+     
+ } 
