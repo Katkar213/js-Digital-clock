@@ -320,11 +320,10 @@ content:"Set Alarm"
         font-size:10px;
         width:180px;
         height: auto;
-        margin-bottom: 80px;
+        margin-bottom: 20px;
         line-height: 15px;
         
     }
-
     .slash{
         left:45px;
     }
@@ -334,14 +333,14 @@ content:"Set Alarm"
     }
 .blanket{
     position: relative;
-    top:400px;
+    top:540px;
 }
 
  
     
 }
- 
-@media screen and (min-width:500px) and (max-width:900px) {
+
+@media screen and (min-width:520px) and (max-width:900px) {
 
   
     *{
@@ -362,7 +361,7 @@ content:"Set Alarm"
        
          left:30px;
          top:40px;
-         width: 90%;
+         width: 680px;
          height: 90px;
          font: auto;
         }
@@ -376,22 +375,22 @@ content:"Set Alarm"
          margin-top:23px;
         }
         .blank1{
-         left:80px;
+         left:120px;
          top: -30px; 
-         width:80%;
+         width:560px;
          height: 80px;
  
         }
         .blank2{
-          left:150px; 
-         top:-124px;
-         width:60%;
+          left:149px; 
+         top:-120px;
+         width:500px;
          height: 100px;
         }
         .changemsg1{
          left: 30px;
-         top: -155px;
-         width:300px;
+         top: 225px;
+         width:680px;
          /* height:auto; */
      
         }
@@ -399,49 +398,48 @@ content:"Set Alarm"
         .inputboxes{
         
          left: 30px;
-         width:90%;
-         top:215px;
-         height:255px;
+         width: 680px;
+         top:315px;
+         height:265px;
         }
         .bigimg{
          left:30px;
-         top:150px;
+         top:270px;
          height: auto;
          font: auto;
-         width:90%;
+         width: 680px;
         }
         .goodmrng{
-         top: -125px;
+         top: 1060px;
          left:30px; 
-         width: 300px;
+         width: 680px;
          font-size: 20px;
         
         }
      .alarm{
-         top:  160px;   
+         top:  360px;   
          left:20px;
-         width:30%;
+         width: 270px;
          position: relative;
        
      }
      .updatelist{
          position: relative;
-         top:  110px;   
-         left:38%;
-         font-size:10px;
-         width:50%;
-         height: 140px;
-         margin-bottom: 80px;
+         top:  320px;   
+         left:370px;
+         font-size:17px;
+         width:330px;
+         height: 170px;
+         margin-bottom: 20px;
          line-height: 25px;
          
      }
      .clock{
         left:40%;
      }
- 
      .slash{
-         left:145px;
-         width: 40px;
+         left:144px;
+         width:20px;
          top:20px;
      }
      imgshrt{
@@ -450,9 +448,10 @@ content:"Set Alarm"
      }
  .blanket{
      position: relative;
-     top:720px;
+     top:980px;
  }
  
   
      
- } 
+ }
+ 
