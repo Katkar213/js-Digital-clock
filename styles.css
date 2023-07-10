@@ -308,15 +308,15 @@ content:"Set Alarm"
        
        }
     .alarm{
-        top:  230px;   
+        top:  770px;   
         left:20px;
         width:110px;
-        position: relative;
+        position: absolute;
       
     }
     .updatelist{
         position: relative;
-        top:  190px;   
+        top:  230px;   
         left:148px;
         font-size:10px;
         width:180px;
@@ -334,7 +334,7 @@ content:"Set Alarm"
     }
 .blanket{
     position: relative;
-    top:540px;
+    top:610px;
 }
 
  
