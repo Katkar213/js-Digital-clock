@@ -287,7 +287,7 @@ content:"Set Alarm"
         left: 30px;
         top: 190px;
         width:300px;
-         height:50px; 
+         height:70px; 
     
        }
       .clock{
@@ -297,13 +297,13 @@ content:"Set Alarm"
        
         left: 30px;
         width:300px;
-        top:245px;
+        top:265px;
         height:205px;
         padding-top: 0px;
        }
        .bigimg{
         left:30px;
-        top:455px;
+        top:475px;
         height: auto;
         font: auto;
         width:300px;
@@ -311,7 +311,7 @@ content:"Set Alarm"
        }
        .goodmrng{
         position: absolute;
-        top: 650px;
+        top: 670px;
         left:30px; 
         width: 300px;
         font-size: 20px;
@@ -319,7 +319,7 @@ content:"Set Alarm"
        
        }
     .alarm{
-        top:  735px;   
+        top:  755px;   
         left:20px;
         width:110px;
         position: absolute;
@@ -327,7 +327,7 @@ content:"Set Alarm"
     }
     .updatelist{
         position: absolute;
-        top:  722px;   
+        top:  742px;   
         left:148px;
         font-size:10px;
         width:180px;
@@ -350,7 +350,7 @@ content:"Set Alarm"
     }
 .blanket{
     position: relative;
-    top:845px;
+    top:860px;
 }
 
  
