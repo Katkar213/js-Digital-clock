@@ -68,8 +68,8 @@ bigimg[0].src="./Group 5183.png"
  }
 else if(parseInt(inputValue[3].value)===hrss){
     goodmrng[0].innerText='GOOD NIGHT !!';
-    bigimg[0].src="./goodnight_image.png"
-    
+    bigimg[0].src="./Group 5194.svg"
+    // "./goodnight_image.png"
 }
 let a1=inputValue[0].selectedIndex;
 let a11=inputValue[0].options[a1].innerText;
