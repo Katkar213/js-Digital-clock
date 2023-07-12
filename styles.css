@@ -6,8 +6,8 @@
 body{
     
     background-color: blueviolet;
-    width: auto;
-    height: auto;
+  
+   
   
 }
 .clock{
@@ -209,41 +209,23 @@ content:"Set Alarm"
     line-height: 17px;
    text-align: center;
    padding: 5px;
+   border: 2px solid black;
+   background-color: #F6E2FF;
    font-weight: bold;
     font: normal normal 900  Bauhaus Hv BT;
    }
-   .updatelist span{
-       font-family: 'Nunito Sans', sans-serif;
-       isolation: isolate;
-       font-weight: bolder;     
-   }
-   .updatelist::before{
-       opacity:30%; 
-       background-color:lightgray;
-       content: '';
-       position: absolute;
-       inset: 0; 
-       border-radius: 10px;
-   }
-   .updatelist h3{ 
-       color: yellow;
-   } 
    .blanket{
     border: 1px solid black;
     position: relative;
+    display: none;
    }
 
    @media screen and (min-width:280px) and (max-width:600px) {
-
-  
-   
-   body{
+body{
     position: relative;
     background-color: #6511c5;
-    overflow-x:hidden ;
     overflow-y: scroll;
     width: auto;
-    /* height: auto; */
    }
   
    .selctions{
@@ -326,12 +308,12 @@ content:"Set Alarm"
       
     }
     .updatelist{
-        position: absolute;
-        top:  742px;   
-        left:148px;
+        position: relative;
+        top:  420px;   
+        left:140px;
         font-size:10px;
         width:180px;
-        height: 80px;
+        height: 100px;
         margin-bottom: 20px;
         line-height: 8px;
         
@@ -349,8 +331,9 @@ content:"Set Alarm"
     
     }
 .blanket{
+    display: block;
     position: relative;
-    top:860px;
+    top:570px;
 }
 
  
@@ -470,6 +453,7 @@ content:"Set Alarm"
      
      }
  .blanket{
+    display: block;
      position: relative;
      top:850px;
  }
