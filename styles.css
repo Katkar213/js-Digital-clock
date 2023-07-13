@@ -307,17 +307,17 @@ body{
         position: absolute;
       
     }
-    .updatelist{
-        position: relative;
-        top:  420px;   
-        left:140px;
+ .updatelist{
+        position: absolute;
+        top:  750px;   
+        left:180px;
         font-size:10px;
         width:180px;
         height: 100px;
         margin-bottom: 20px;
         line-height: 8px;
         
-    }
+    } 
     .slash{
         left:45px;
         top: 28px;
@@ -333,7 +333,7 @@ body{
 .blanket{
     display: block;
     position: relative;
-    top:570px;
+    top:670px;
 }
 
  
@@ -399,7 +399,7 @@ body{
          width:680px;
          /* height:auto; */
      
-        }
+         }
      
         .inputboxes{
         
@@ -457,9 +457,8 @@ body{
      position: relative;
      top:850px;
  }
- 
+}
+
   
-     
- }
- 
- 
+
+  
